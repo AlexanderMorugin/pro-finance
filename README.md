@@ -1,6 +1,6 @@
 <h1 align="center">PROФинанс - Тестовое задание Frontend React</h1>
 
-Смотреть работу <a href="https://alexandermorugin.github.io/pro-finance/" target="_blank">[[react-test-pro-finance](https://github.com/AlexanderMorugin/react-test-pro-finance)](https://alexandermorugin.github.io/pro-finance/)</a>
+Смотреть работу <a href="https://alexandermorugin.github.io/pro-finance/" target="_blank">https://alexandermorugin.github.io/pro-finance/</a>
 
 Данное приложение является тем же самым, что и <b><a href="https://github.com/AlexanderMorugin/react-test-pro-finance">react-test-pro-finance</a></b> только здесь используется Redux Toolkit.
 
