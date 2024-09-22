@@ -1,0 +1,126 @@
+.table {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: var(--light-primary);
+  border-radius: 20px;
+  padding: 10px;
+
+  &__scroll {
+    width: 100%;
+    height: 400px;
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar {
+      display: block;
+      width: 8px;
+    }
+    &::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: var(--blue-primary);
+      border-radius: 10px;
+    }
+
+    &::-webkit-scrollbar-track-piece:end {
+      background-color: transparent;
+      margin-bottom: 5px;
+    }
+
+    &::-webkit-scrollbar-track-piece:start {
+      background-color: transparent;
+      margin-top: 55px;
+    }
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    font: var(--font-xs-medium);
+    color: var(--dark-secondary);
+    transition: 0.25s;
+
+    &:hover {
+      background: var(--blue-thirdary);
+    }
+  }
+
+  &__arrow {
+    font-size: 20px;
+    color: var(--blue-primary);
+  }
+
+  &__tbodyTr {
+    background: var(--bg-primary);
+    transition: 0.25s;
+
+    &:nth-child(even) {
+      background: var(--bg-secondary);
+    }
+
+    &:hover {
+      background: var(--blue-thirdary);
+    }
+  }
+
+  &__tbodyTd {
+    height: 50px;
+    padding: 10px;
+
+    &:first-child {
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+
+    &:last-child {
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+  }
+
+  &__tfootM {
+    margin-top: 20px;
+  }
+  &__tfoot {
+    background: var(--bg-primary);
+  }
+
+  &__tfootTd {
+    height: 50px;
+    font: var(--font-xs-bold);
+    color: var(--blue-primary);
+    padding: 10px;
+
+    &:first-child {
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+
+    &:last-child {
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+  }
+}
+
+.input {
+  border: 1px solid grey;
+  padding: 10px;
+}
+
+.active {
+  background: red;
+  padding: 10px;
+}
+
+.submit {
+  background: lightcyan;
+  padding: 10px;
+}
