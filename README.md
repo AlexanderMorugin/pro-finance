@@ -4,7 +4,7 @@
 
 Данное приложение является тем же самым, что и <b><a href="https://github.com/AlexanderMorugin/react-test-pro-finance">react-test-pro-finance</a></b> только здесь используется Redux Toolkit.
 
-![PROFinance Demo](/ТЗ.png)
+![PROFinance Demo](/pro-finance.png)
 
 ## Задание
 
